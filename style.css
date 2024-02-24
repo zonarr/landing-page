@@ -62,6 +62,15 @@ button {
 .imgtext{
     justify-content:center;
 }
+.quote {
+    font-size:36px;
+    color:#1F2937;
+    font-weight:lighter;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
 #hero {
     color:#F9FAF8;
     font-size:24px;
@@ -86,6 +95,11 @@ button {
 #third {
     align-items:center;
     padding-top:35px;
+    padding-bottom:70px;
+}
+#fourth {
+    background-color:#E5E7EB;
+    padding-top:120px;
     padding-bottom:70px;
 }
 
