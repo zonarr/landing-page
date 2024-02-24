@@ -5,9 +5,10 @@
 ul {
     padding-left:0px;
 }
-img {
-    height:200px;
-    width:auto;
+.roundimg {
+    height:150px;
+    width:150px;
+    border-radius:10px;
 }
 li {
     list-style-type: none;
@@ -48,6 +49,19 @@ button {
     height:230px;
     width:500px;
 }
+.info{
+    font-size:36px;
+    font-weight:bolder;
+    color:#1F2937;
+    padding-bottom:35px;
+}
+.combine {
+    flex:0 1 150px;
+    margin:25px;
+}
+.imgtext{
+    justify-content:center;
+}
 #hero {
     color:#F9FAF8;
     font-size:24px;
@@ -69,5 +83,9 @@ button {
 #intro {
     flex:0 1 450px;
 }
-
+#third {
+    align-items:center;
+    padding-top:35px;
+    padding-bottom:70px;
+}
 
