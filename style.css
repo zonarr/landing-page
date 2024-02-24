@@ -1,9 +1,27 @@
 * {
     font-family:"Roboto",sans-serif;
 }
+
 ul {
     padding-left:0px;
 }
+img {
+    height:200px;
+    width:auto;
+}
+li {
+    list-style-type: none;
+    padding-left:20px;
+}
+button {
+    padding:5px 25px;
+    border-radius:10px;
+    background-color:#3882F6;
+    color:white;
+    margin-top:8px;
+    font-size:15px;
+}
+
 .flexvertical{
     display:flex;
     flex-direction:column;
@@ -25,16 +43,9 @@ ul {
 .rightpadding {
     padding-right:350px;
 }
-img {
-    height:200px;
-    width:auto;
-}
-li {
-    list-style-type: none;
-    padding-left:20px;
-}
-.rightpadding img {
-    height:auto;
+
+.wide{
+    height:230px;
     width:500px;
 }
 #hero {
@@ -57,7 +68,6 @@ li {
 }
 #intro {
     flex:0 1 450px;
-    flex-wrap:wrap;
 }
 
 
