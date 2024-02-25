@@ -62,14 +62,10 @@ button {
 .imgtext{
     justify-content:center;
 }
-.quote {
-    font-size:36px;
-    color:#1F2937;
-    font-weight:lighter;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-
+.name{
+    align-self:end;
+    font-size:25px;
+    font-weight:bold;
 }
 #hero {
     color:#F9FAF8;
@@ -101,5 +97,13 @@ button {
     background-color:#E5E7EB;
     padding-top:120px;
     padding-bottom:70px;
+    font-size:36px;
+    color:#1F2937;
+    font-weight:lighter;
+    display:flex;
+    justify-content:center;
+    padding-left:500px;
+    padding-right:500px;
+    flex-direction:column;
 }
 
