@@ -110,14 +110,21 @@ button {
     background-color:#3882F6;
     color:white;
     display:flex;
-    padding:40px 0px;
+    padding:50px 0px;
     align-items:center;
     justify-content:space-around;
     border-radius:10px;
-    margin:50px 500px;
+    margin:70px 500px;
 }
 #signup{
     border-color:white;
-
+}
+#bottom{
+    background-color:#1F2937;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:35px 0px;
 }
 
