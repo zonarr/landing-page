@@ -106,4 +106,18 @@ button {
     padding-right:500px;
     flex-direction:column;
 }
+#blue{
+    background-color:#3882F6;
+    color:white;
+    display:flex;
+    padding:40px 20px;
+    align-items:center;
+    justify-content:space-around;
+    border-radius:10px;
+    margin:50px 450px;
+}
+#signup{
+    border-color:white;
+
+}
 
